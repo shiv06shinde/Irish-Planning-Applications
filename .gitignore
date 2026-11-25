@@ -1,0 +1,15 @@
+# Raw download: 318 MB and may contain personal data. Never commit it.
+data/raw/*
+!data/raw/.gitkeep
+
+# Uncompressed clean CSV is too big for GitHub (use the .csv.gz version)
+data/processed/*.csv
+!data/processed/data_dictionary.csv
+!data/processed/cleaning_log.csv
+
+# Python / VS Code / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
