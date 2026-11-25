@@ -36,5 +36,5 @@ report/         IEEE report files
 - Always load data from `data/processed/planning_clean.csv.gz` and use the `split` column for train/test
 - Check `data/processed/data_dictionary.csv` before choosing features. Columns marked
   "AFTER application" must never be used as features (leakage)
-- Use `random_state=42` everywhere
+- Use `random_state=23` everywhere
 - Save figures to `figures/` and metric tables to `outputs/` with your name in the file name
